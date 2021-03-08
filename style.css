@@ -1,9 +1,15 @@
 /* intuitivnejsi box-sizing */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 body {
-    text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
 }
 
 /*
@@ -21,3 +27,139 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.kontejner {
+  display: flex;
+  border-radius: 15px;
+}
+.obsah {
+  padding: 30px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(216, 215, 215);
+  margin: 100px;
+}
+
+.tempo {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-top: 30px;
+}
+
+.cena {
+  font-size: 28px;
+  font-weight: bolder;
+  color: white;
+}
+
+.zaruka {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-top: 30px;
+  margin-top: 0;
+}
+
+div {
+  padding: 30px;
+}
+
+.prava {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: white;
+  width: 335px;
+  height: 440px;
+  border-radius: 0 10px 10px 0;
+  position: relative;
+}
+
+
+.leva {
+  background-image: linear-gradient(#06d7c1, #50cc49);
+  width: 335px;
+  height: 440px;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+}
+
+.bota {
+  position: absolute;
+  right: 3px;
+  top: 140px;
+}
+
+.udaje {
+  position: absolute;
+  left: 158px;
+  top: 360px;
+  padding: 0;
+
+  text-align: right;
+}
+
+.cena,
+.zaruka {
+  padding: 0;
+}
+
+.typ {
+  color: gray;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.velikosti li {
+  display: inline-block;
+  margin-top: 0;
+}
+
+li {
+  margin: 8px;
+  text-align: left;
+}
+
+.velikosti {
+  padding: 0;
+  margin-bottom: 45px;
+}
+
+.kosik {
+text-transform: uppercase;
+text-decoration: none;
+  color: white;
+  background-color: coral;
+  border-radius: 5px;
+  padding: 13px 28px;
+  position: absolute;
+  top: 366px;
+}
+
+.chose {
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 5px;
+  color: red;
+}
+
+.popis {
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(106, 208, 248);
+  margin-bottom: 0;
+}
